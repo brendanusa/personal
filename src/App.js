@@ -5,12 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="left">
-        </div>
-        <div className="center">
-        </div>
-        <div className="right">
-        </div>
+
       </div>
     );
   }
