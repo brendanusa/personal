@@ -1,0 +1,28 @@
+.Projects {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  margin-top: 20%;
+  margin-left: 10px;
+  width: 20%;
+  border: 2px solid rgb(66, 88, 116);
+  background-color: green;
+}
+
+.center {
+  margin-top: 20%;
+  margin-left: 10px;
+  width: 20%;
+  border: 2px solid rgb(66, 88, 116);
+  background-color: green;
+}
+
+.right {
+  margin-top: 20%;
+  margin-left: 10px;
+  width: 20%;
+  border: 2px solid rgb(66, 88, 116);
+  background-color: green;
+}
