@@ -1,0 +1,30 @@
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  /*width: 100%;*/
+  margin-top: 4vw;
+  font-size: 1.5vw;
+}
+
+.Header a {
+  color: #92C2FF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Header span:hover {
+  background-color: rgb(66, 88, 116, 0.5);
+  /*border-color: rgb(66, 88, 116, 0.8);*/
+}
+
+.Header span:active {
+  border-color: #92C2FF;;
+}
+
+.Header span {
+  padding: 1vw;
+  border-radius: 5em / 5em;
+  border: 2px solid;
+  border-color: black;
+  margin-right: 2vw;
+}
