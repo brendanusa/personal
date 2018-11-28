@@ -1,8 +1,16 @@
 .App {
   text-align: center;
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*font-family: "Verdana", "Geneva", sans-serif;*/
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-variant: small-caps;
 }
 
 .App div {
+
+}
+
+.App link a {
+  color: rgb(66, 88, 116);
 }
