@@ -16,6 +16,9 @@ const Header = () => (
       <Link to={'/projects'}>
         <span>PROJECTS</span>
       </Link>
+      <Link to={'/awards'}>
+        <span>AWARDS</span>
+      </Link>
       <Link to={'/contact'}>
         <span>CONTACT</span>
       </Link>
