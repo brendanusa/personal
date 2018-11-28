@@ -1,0 +1,33 @@
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.8);
+  }
+}
+
+.Contact {
+  display: flex;
+  margin-top: 12vw;
+  justify-content: center;
+}
+
+.Contact div {
+  padding: 6vw;
+  border-radius: 100%;
+  /*border: 2px solid;*/
+}
+
+.Contact div:active {
+  background-color: rgb(66, 88, 116, 0.5);
+}
+
+.Contact img:hover {
+  animation: grow 0.15s ease-in;
+  transform: scale(1.8)
+}
+
+.Contact img {
+  width: 8vw;
+}
