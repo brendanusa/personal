@@ -13,12 +13,12 @@ const Contact = () => {
 
     <div className="Contact">
       <div className="left">
-        <a href='https://github.com/brendanusa'>
+        <a href='https://github.com/brendanusa' target="_blank">
           <img src={githubLogo} />
         </a>
       </div>
       <div className="center">
-        <a href='https://www.linkedin.com/in/brendan-bansavage'>
+        <a href='https://www.linkedin.com/in/brendan-bansavage' target="_blank">
           <img src={linkedinLogo} />
         </a>
       </div>

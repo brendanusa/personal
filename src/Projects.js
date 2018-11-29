@@ -55,7 +55,7 @@ class Projects extends Component {
         {this.state.projects.map((project, i) => {
           return (
             <div className={`${i} container`} onMouseEnter={() => this.handleMouseEnter(i)} onMouseLeave={() => this.handleMouseLeave(i)}>
-              <a href={project.url}>
+              <a href={project.url} target="_blank">
               
               <img className={i.toString()} src={project.logo} />
               
