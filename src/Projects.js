@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Projects.css';
 import tmLogo from './TM-logo.png';
 import faLogo from './5A-logo.png';
-import otterLogo from './otter-logo.png'
+import otterLogo from './otter-logo-lowres.png'
 
 class Projects extends Component {
 
