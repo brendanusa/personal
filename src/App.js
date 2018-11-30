@@ -6,11 +6,20 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Awards from './Awards';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import backgroundImage from './bkgd-edge.png';
+
 
 class App extends Component {
+
+  updateBackgroundImage() {
+    console.log(typeof document.body.style)
+    document.body.style.backgroundImage = `url(${backgroundImage})`;
+  }
+
   render() {
     return (
       <div className="App">
+        <img className="hidden" src={backgroundImage} alt="null" onLoad={this.updateBackgroundImage} />
         <Router>
         <div>
           <Header />
