@@ -15,7 +15,7 @@ class Projects extends Component {
           description: 'Web platform for a college basketball contest with a live chat module',
           logo: faLogo,
           isHovered: false,
-          url: 'https://five-alive-2018.herokuapp.com/'
+          url: 'https://five-alive-bball.herokuapp.com/'
         },
         {
           title: 'TriviaMasters',
