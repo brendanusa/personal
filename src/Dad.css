@@ -1,0 +1,13 @@
+.Dad {
+  /*padding: 10px;*/
+  margin-top: 50px;
+  padding: 20px;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  background: url("pbbkgd.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
