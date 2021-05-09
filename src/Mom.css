@@ -4,10 +4,15 @@
   padding: 20px;
   text-shadow: 2px 2px black;
   font-weight: bolder;
-  background: url("lake.jpg") no-repeat center center fixed;
+  background: url("mdaybkgd.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #fff200;
+  color: #ffffff;
+}
+
+h1 {
+  text-shadow: none;
+  font-size: calc(8px + 1vw);
 }
