@@ -4,7 +4,7 @@ import "./Mom.css";
 const Mom = () => {
   return (
     <div className="Mom">
-      <h2>HAPPY MOTHER'S DAY!</h2>
+      <h2>HAPPY MOTHER'S DAY</h2>
       <iframe
         width="360"
         height="480"
